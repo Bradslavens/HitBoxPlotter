@@ -29,13 +29,15 @@
     <p>Upload an image and click on it to record hitbox locations.</p>
 
     <input type="file" id="image-input" accept="image/*">
-    <div id="image-container">
-        <img id="uploaded-image" alt="Upload an image to start" style="display: none;">
-    </div>
+    <div id="container">
+        <div id="image-container">
+            <img id="uploaded-image" alt="Upload an image to start" style="display: none;">
+        </div>
 
-    <div id="coordinates">
-        <h2>Recorded Coordinates</h2>
-        <ul id="coordinates-list"></ul>
+        <div id="coordinates">
+            <h2>Recorded Coordinates</h2>
+            <ul id="coordinates-list"></ul>
+        </div>
     </div>
 
     <script src="script.js"></script>
