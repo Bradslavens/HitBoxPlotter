@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1 {
+    color: #4CAF50;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+#image-container {
+    position: relative;
+    display: block;
+    margin: 20px auto;
+    max-width: 80%;
+    border: 2px dashed #ccc;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#uploaded-image {
+    max-width: 100%;
+    height: auto;
+    cursor: crosshair;
+    display: block;
+    margin: 0 auto;
+}
+
+#coordinates {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#coordinates h2 {
+    color: #4CAF50;
+}
+
+#coordinates-list {
+    list-style-type: none;
+    padding: 0;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#coordinates-list li {
+    background: #e8f5e9;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
