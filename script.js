@@ -16,8 +16,12 @@ document.getElementById('uploaded-image').addEventListener('click', function(eve
     const x = event.clientX - rect.left;
     const y = event.clientY - rect.top;
 
+    // Calculate relative coordinates as percentages
+    const relX = ((x / rect.width) * 100).toFixed(2);
+    const relY = ((y / rect.height) * 100).toFixed(2);
+
     const coordinatesList = document.getElementById('coordinates-list');
     const listItem = document.createElement('li');
-    listItem.textContent = `X: ${x}, Y: ${y}`;
+    listItem.textContent = `X: ${relX}%, Y: ${relY}%`;
     coordinatesList.appendChild(listItem);
 });
